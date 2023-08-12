@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA2505012A674FAE00218766 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2505002A674FAE00218766 /* HomeTableViewHeader.xib */; };
+		DA360BF02A67553500575E58 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA360BEF2A67553500575E58 /* HomeTableViewHeader.swift */; };
 		DAE35E8B2A65FE0500A59E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE35E8A2A65FE0500A59E27 /* AppDelegate.swift */; };
 		DAE35E8D2A65FE0500A59E27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE35E8C2A65FE0500A59E27 /* SceneDelegate.swift */; };
 		DAE35E8F2A65FE0500A59E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE35E8E2A65FE0500A59E27 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA2505002A674FAE00218766 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		DA360BEF2A67553500575E58 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 		DAE35E872A65FE0500A59E27 /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE35E8A2A65FE0500A59E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE35E8C2A65FE0500A59E27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				DAE35E932A65FE0500A59E27 /* Assets.xcassets */,
 				DAE35E952A65FE0500A59E27 /* LaunchScreen.storyboard */,
 				DAE35E982A65FE0500A59E27 /* Info.plist */,
+				DA2505002A674FAE00218766 /* HomeTableViewHeader.xib */,
+				DA360BEF2A67553500575E58 /* HomeTableViewHeader.swift */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE35E972A65FE0500A59E27 /* LaunchScreen.storyboard in Resources */,
+				DA2505012A674FAE00218766 /* HomeTableViewHeader.xib in Resources */,
 				DAE35E942A65FE0500A59E27 /* Assets.xcassets in Resources */,
 				DAE35E922A65FE0500A59E27 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE35E8F2A65FE0500A59E27 /* ViewController.swift in Sources */,
+				DA360BF02A67553500575E58 /* HomeTableViewHeader.swift in Sources */,
 				DAE35E8B2A65FE0500A59E27 /* AppDelegate.swift in Sources */,
 				DAE35E8D2A65FE0500A59E27 /* SceneDelegate.swift in Sources */,
 			);
